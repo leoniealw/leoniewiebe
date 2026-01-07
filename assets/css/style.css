@@ -194,7 +194,7 @@ video {
 
   .projecttext {
     position: absolute;
-    top: 30rem;
+    top: 32rem;
     left: 1.5rem;
     width: calc(100% - 3rem);
   }
