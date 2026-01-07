@@ -45,7 +45,8 @@ a {
   margin-left: 1.5rem;
   /* outline: 1px solid red; */
   height: 93vh;
-  width: 100%;
+  /* width: 100%; */
+  width: calc(100% - 1.5rem);
   grid-template-columns:
     minmax(10rem, 1rem)
     minmax(10rem, 15rem);
@@ -136,6 +137,7 @@ video {
   transform: translate(-50%, -50%);
   width: 30%;
 }
+
 #vertical {
   width: calc(30% / 3 * 2);
 }
@@ -244,6 +246,6 @@ video {
   }
 
   .slideshow-container {
-    margin-top: -19rem; /* nach oben verschieben: kleiner Wert = höher */
+    margin-top: -55vh; /* nach oben verschieben: kleiner Wert = höher */
   }
 }
